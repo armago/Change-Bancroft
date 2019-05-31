@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Change Bancroft Forms</title>
+  <script
+src = "https://www.gstatic.com/firebasejs/5.11.1/firebase-app.js"></script>
+
+<script>
+// Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBEekXYeM7eIvwrfRHc9ceE2soNgjWzc0U",
+    authDomain: "change-bancroft.firebaseapp.com",
+    databaseURL: "https://change-bancroft.firebaseio.com",
+    projectId: "change-bancroft",
+    storageBucket: "change-bancroft.appspot.com",
+    messagingSenderId: "1032177936201",
+    appId: "1:1032177936201:web:e2b6e58d002d0019"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);  
+</script>
+
+<script
+src = "https://www.gstatic.com/firebasejs/5.11.1/firebase-auth.js"></script>
+<script
+src = "https://www.gstatic.com/firebasejs/5.11.1/firebase-firestore.js"></script>
+
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+
+<html>
+  <head>
+     <title> Change </title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  </head>
+  
+<body>
+  
+  <h1> Change Bancroft </h1>
+  <h2> Please use full, thoughtful sentences</h2>
+ 
+  <p class="subtitle"> </p>
+  
+  <div class="petition1">     
+  <form id = "change" name = "change">
+    <p> Name your petiton</p>
+      <textarea rows="3" cols="30" name = "name"></textarea><br><br>
+    <p>Describe your petiton</p>
+   <textarea rows="3" cols="30" name = "describe"></textarea><br><br>
+    <p> What is your goal</P>
+     <textarea rows="3" cols="30" name = "goal"></textarea><br><br>
+  <p> Created by</p>
+   <textarea rows="3" cols="30" name = "creator"></textarea><br><br>
+  
+  </form>
+    
+  <button class="submit" onclick = "submit()">Submit</button>
+    
+  </div>
+  
+  
+  
+  </body>
+  </html>
+  <script src='https://petition-api.surge.sh/main.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
